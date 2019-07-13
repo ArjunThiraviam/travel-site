@@ -4,13 +4,18 @@
     text-decoration: none;
     padding: .75rem 1.2rem;
     display: inline-block;
-}
 
-.btn--orange {
-    background-color: $mainOrange;
-}
+    &--orange {
+        background-color: $mainOrange;
+    }
 
-.btn--large {
-    font-size: 1.25rem;
-    padding: 1.1rem 1.9rem;
+    &--large {
+        padding: 1.1rem 1.9rem;
+        
+        @mixin atSmall {
+            font-size: 1.25rem;
+        }
+
+    }
+
 }
