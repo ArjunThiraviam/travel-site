@@ -4,6 +4,7 @@
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    overflow: hidden;
 
     &--medium {
         max-width: 976px;

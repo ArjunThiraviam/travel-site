@@ -45,7 +45,7 @@
         margin-right: auto;
 
         @mixin atSmall {
-            font-size: 2.9rem;
+            font-size: 1.875rem;
         }
     }
     &__image {
