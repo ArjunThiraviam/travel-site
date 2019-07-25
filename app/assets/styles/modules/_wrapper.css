@@ -10,6 +10,12 @@
         max-width: 976px;
     }
 
+    @mixin atLarge {
+        &--large {
+            max-width: 976px;
+        }
+    }
+
     .wrapper {
         padding-left: 0px;
         padding-right: 0px;
@@ -20,6 +26,19 @@
 
         @mixin atSmall {
             margin-bottom: 3.875rem;
+        }
+    }
+    &--no-pading-until-medium {
+        @mixin atLarge {                
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+    }
+
+    &--no-pading-until-large {
+        @mixin atLarge {
+            padding-left: 0px;
+            padding-right: 0px;
         }
     }
 } 
