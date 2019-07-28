@@ -53,4 +53,4 @@ gulp.task('usemin', function(){
         .pipe(gulp.dest("./docs"));
 });
 
-gulp.task('build', gulp.series('deleteDistFolder','optimizeImages','usemin', 'copyGenralFiles'));
+gulp.task('build', gulp.series('deleteDistFolder','icons','optimizeImages','usemin', 'copyGenralFiles'));
