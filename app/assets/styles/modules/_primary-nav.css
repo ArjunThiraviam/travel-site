@@ -45,6 +45,10 @@
             font-size: 1em;
             padding: 12px 0px;
             background-color: transparent;
+
+            &.is-current-link {
+                color: $mainOrange;
+            }
         }
     }
 }
