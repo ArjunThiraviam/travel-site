@@ -44,7 +44,7 @@
         @mixin atMedium{
             font-size: 1em;
             padding: 12px 0px;
-            background-color: transprent;
+            background-color: transparent;
         }
     }
 }
